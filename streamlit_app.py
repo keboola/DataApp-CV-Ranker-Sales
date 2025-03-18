@@ -175,7 +175,7 @@ def analyze_cv(cv_text, job_description):
             {
                 "name": "extract the name of the candidate from the cv",
                 "summary": "summary of the candidate's CV",
-                "score": Provide a score between 0.0 to 100.0 that represents the percentage of job description requirements met by the candidate's CV,
+                "score": Provide a score between 0.0 to 100.0 that represents the percentage of job description requirements met by the candidate's CV, showing at least 3 years in a full sales cycle carrying AE role, experience working in an eCommerce company or selling to eCommerce companies, experience working with or selling data or data products, career trajectory - do they have a consistent growth track? We don’t want candidates who are constantly job hopping or who have very long gaps in their resume.
                 "fit": "Describe whether the candidate fits the job description or not. Provide an explanation why",
                 "speculation": "Describe whether you think the candidate can succeed in the job taking in mind your answer for whether they fit or not",
             }
